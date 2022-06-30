@@ -1,5 +1,8 @@
 # 이터러블 (Iterable)
 
+![iterable-iterator](https://user-images.githubusercontent.com/31913666/176586876-da5390a7-4c9b-4bd3-ac8a-7788e9e05fb1.jpeg)
+
+
 ## ✅ &nbsp;이터레이션 프로토콜 (Iteration Protocol)
 ES6에서 도입된 **이터레이션 프로토콜**<sup>Iteration Protocol</sup> 은 순회 가능한<sup>iterable</sup> 데이터 컬렉션을 만들기 위해 ECMAScript 사양에 정의하여 미리 약속한 규칙이다.
 
