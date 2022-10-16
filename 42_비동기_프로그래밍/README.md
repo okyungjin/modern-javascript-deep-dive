@@ -1,9 +1,10 @@
 # 42장. 비동기 프로그래밍
-- [42장. 비동기 프로그래밍](#42장-비동기-프로그래밍)
-  - [자바스크립트의 동시성](#자바스크립트의-동시성)
-  - [태스크 큐 (Task Queue)](#태스크-큐-task-queue)
-  - [이벤트 루프 (Event Loop)](#이벤트-루프-event-loop)
-  - [`setTimeout(cb, 0)`은 어떻게 동작하는가?](#settimeoutcb-0은-어떻게-동작하는가)
+
+- [자바스크립트의 동시성](#자바스크립트의-동시성)
+- [태스크 큐 (Task Queue)](#태스크-큐-task-queue)
+- [이벤트 루프 (Event Loop)](#이벤트-루프-event-loop)
+- [`setTimeout(cb, 0)` 는 어떻게 동작하는가?](#settimeoutcb-0-는-어떻게-동작하는가)
+- [Wrap Up](#wrap-up)
 
 <br>
 
@@ -36,7 +37,7 @@
 
 <br>
 
-## `setTimeout(cb, 0)`은 어떻게 동작하는가?
+## `setTimeout(cb, 0)` 는 어떻게 동작하는가?
 브라우저 환경에서 다음 코드의 동작 방식을 분석해보자.
 ```js
 const foo = () => {
